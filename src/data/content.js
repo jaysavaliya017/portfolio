@@ -123,7 +123,7 @@ export const EXPERIENCE = [
   {
     role: 'Software Developer · .NET + React',
     company: 'CodeQuantum Technologies Pvt. Ltd. — Ahmedabad',
-    date: 'May 2024 — Present',
+    date: 'May 2024 — May 2026',
     intro: 'Contract-based client engagements building and maintaining product web apps in C#, .NET Core and React for retail and enterprise clients.',
     bullets: [
       'Built booking, gift card and invoicing systems end to end.',

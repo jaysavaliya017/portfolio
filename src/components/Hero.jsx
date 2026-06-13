@@ -11,8 +11,7 @@ export default function Hero() {
         </span>
 
         <h1 className="hero-title">
-          I build production <span className="amber">.NET systems</span> — and wire them into{' '}
-          <span className="sig">LLMs</span>.
+          Full-Stack Developer <span className="amber">Jay Savaliya</span> — building .NET apps with <span className="sig">AI</span> built in.
         </h1>
 
         <p className="hero-sub">
