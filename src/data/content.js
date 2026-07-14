@@ -8,7 +8,7 @@ export const PROFILE = {
   phoneHref: '+919510786683',
   linkedin: 'https://linkedin.com/in/jay-savaliya',
   location: 'Ahmedabad, IN',
-  resume: 'Jay Savaliya.pdf', // place this file in /public to enable the Résumé button
+  resume: 'Jay_Savaliya.pdf',
 }
 
 export const SCHEMATIC = {
