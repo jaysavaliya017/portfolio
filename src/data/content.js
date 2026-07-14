@@ -17,7 +17,7 @@ export const SCHEMATIC = {
 }
 
 export const STATS = [
-  { n: '2', suffix: '+', l: 'years shipping production apps' },
+  { n: '3', suffix: '+', l: 'years shipping production apps' },
   { n: '~40', suffix: '%', l: 'frontend performance gain, Tyler Technologies app' },
   { n: '10k', suffix: '+', l: 'end users on a U.S. gov application' },
   { n: '3', suffix: '×', l: 'LLM stacks in production: OpenAI · Claude · MCP' },
@@ -135,7 +135,7 @@ export const EXPERIENCE = [
   {
     role: '.NET + React Intern',
     company: 'AdiInfi Pvt. Ltd. — Ahmedabad',
-    date: 'Nov 2023 — Apr 2024',
+    date: 'Apr 2023 — Apr 2024',
     intro: 'Built and maintained web features in C#, .NET / .NET Core, ASP.NET and React; wrote and tuned SQL queries, stored procedures and functions in SQL Server; shipped responsive UI and tracked work in Jira.',
   },
   {
