@@ -134,13 +134,8 @@ export const EXPERIENCE = [
   {
     role: '.NET + React/Angular Intern',
     company: 'AdiInfi Pvt. Ltd. — Ahmedabad',
-<<<<<<< HEAD
     date: 'Nov 2023 — Apr 2024',
     intro: 'Built and maintained web features in C#, .NET / .NET Core, ASP.NET and React; wrote and tuned SQL queries, stored procedures and functions in SQL Server; shipped responsive UI and tracked work in Jira.',
-=======
-    date: 'Apr 2023 — Apr 2024',
-    intro: 'Built and maintained web features in C#, .NET / .NET Core, ASP.NET and React/Angular; wrote and tuned SQL queries, stored procedures and functions in SQL Server; shipped responsive UI and tracked work in Jira.',
->>>>>>> ba756d5 (Update portfolio content and resume)
   },
   {
     edu: true,
