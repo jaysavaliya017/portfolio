@@ -1,7 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
 
-/* Polymorphic reveal-on-scroll wrapper. Forwards its ref to the chosen
-   element so grid/layout relationships are preserved (no extra wrapper div). */
 export function Reveal({ as: Tag = 'div', className = '', children, ...rest }) {
   const ref = useRef(null)
   const [shown, setShown] = useState(false)
@@ -33,7 +31,6 @@ export function Reveal({ as: Tag = 'div', className = '', children, ...rest }) {
   )
 }
 
-/* Tracks which section is in view for the nav underline. */
 export function useScrollSpy(ids, offset = 120) {
   const [active, setActive] = useState('')
   useEffect(() => {
@@ -53,14 +50,12 @@ export function useScrollSpy(ids, offset = 120) {
   return active
 }
 
-/* Renders a content array where items are strings or { strong: '...' }. */
 export function RichText({ parts }) {
   return parts.map((p, i) =>
     typeof p === 'string' ? p : <strong key={i}>{p.strong}</strong>
   )
 }
 
-/* --- icons --- */
 export const ArrowIcon = () => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
     <path d="M5 12h14M13 6l6 6-6 6" />

@@ -1,4 +1,3 @@
-// All editable copy lives here. Change content without touching components.
 
 export const PROFILE = {
   name: 'Jay Savaliya',
@@ -12,7 +11,7 @@ export const PROFILE = {
 }
 
 export const SCHEMATIC = {
-  backend: ['.NET Core / C#', 'SQL Server / EF Core', 'React + TypeScript'],
+  backend: ['.NET Core / C#', 'SQL Server / EF Core', 'Angular/React + TypeScript'],
   ai: ['OpenAI API', 'Claude API', 'MCP Server'],
 }
 
@@ -23,7 +22,6 @@ export const STATS = [
   { n: '3', suffix: '×', l: 'LLM stacks in production: OpenAI · Claude · MCP' },
 ]
 
-// Use {strong:"..."} segments to bold inline text inside paragraphs.
 export const PROJECTS = [
   {
     feature: true,
@@ -48,13 +46,13 @@ export const PROJECTS = [
       { v: '+30%', amber: true, k: 'satisfaction' },
       { v: '10k+', k: 'users' },
     ],
-    stack: ['React', 'Redux', 'TypeScript', 'Node.js'],
+    stack: ['Angular', 'React', 'Redux', 'TypeScript', 'Node.js'],
   },
   {
     tag: 'Product engineering',
     title: 'Booking & scheduling system',
     body: ['Built from the ground up: availability, reservations, confirmations and cancellation handling — the full lifecycle, designed to stay consistent under real concurrent load.'],
-    stack: ['C#', '.NET Core', 'SQL Server', 'React'],
+    stack: ['C#', '.NET Core', 'SQL Server', 'React', 'TypeScript','Angular'],
   },
   {
     tag: 'Payments',
@@ -83,7 +81,8 @@ export const STACK = [
   {
     h: 'Frontend',
     items: [
-      ['React', 'primary framework'],
+      ['Angular', 'primary framework'],
+      ['React', 'secondary framework'],
       ['TypeScript', 'typed at scale'],
       ['Redux', 'state management'],
       ['Next.js / Node.js', 'SSR + tooling'],
@@ -121,10 +120,10 @@ export const STACK = [
 
 export const EXPERIENCE = [
   {
-    role: 'Software Developer · .NET + React',
+    role: 'Software Developer · .NET + React/Angular',
     company: 'CodeQuantum Technologies Pvt. Ltd. — Ahmedabad',
     date: 'May 2024 — May 2026',
-    intro: 'Contract-based client engagements building and maintaining product web apps in C#, .NET Core and React for retail and enterprise clients.',
+    intro: 'Contract-based client engagements building and maintaining product web apps in C#, .NET Core and React/Angular for retail and enterprise clients.',
     bullets: [
       'Built booking, gift card and invoicing systems end to end.',
       'Integrated OpenAI & Claude APIs and set up an MCP server connecting them to internal systems.',
@@ -133,10 +132,15 @@ export const EXPERIENCE = [
     ],
   },
   {
-    role: '.NET + React Intern',
+    role: '.NET + React/Angular Intern',
     company: 'AdiInfi Pvt. Ltd. — Ahmedabad',
+<<<<<<< HEAD
     date: 'Nov 2023 — Apr 2024',
     intro: 'Built and maintained web features in C#, .NET / .NET Core, ASP.NET and React; wrote and tuned SQL queries, stored procedures and functions in SQL Server; shipped responsive UI and tracked work in Jira.',
+=======
+    date: 'Apr 2023 — Apr 2024',
+    intro: 'Built and maintained web features in C#, .NET / .NET Core, ASP.NET and React/Angular; wrote and tuned SQL queries, stored procedures and functions in SQL Server; shipped responsive UI and tracked work in Jira.',
+>>>>>>> ba756d5 (Update portfolio content and resume)
   },
   {
     edu: true,

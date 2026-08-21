@@ -7,7 +7,7 @@ A fast, single-page developer portfolio built with **React 18 + Vite**. Plain CS
 
 ```bash
 npm install
-npm run dev      # http://localhost:5173
+npm run dev
 ```
 
 ## Build for production
