@@ -15,10 +15,10 @@ export default function Hero() {
         </h1>
 
         <p className="hero-sub">
-          Full-stack developer with 2+ years shipping booking, billing and invoicing systems in{' '}
-          <strong>C#, .NET Core and React</strong> — and one thing most backend engineers at my level
-          can&apos;t claim: real production experience integrating{' '}
-          <strong>OpenAI, Claude and MCP servers</strong> into live workflows.
+          Full-stack .NET developer with 2 years 10 months+ of professional experience building
+          transport, government and business applications with{' '}
+          <strong>C#, .NET Core, Angular and React</strong>. Also bring hands-on production experience
+          integrating <strong>OpenAI, Claude and MCP</strong> into live workflows.
         </p>
 
         <div className="hero-actions">

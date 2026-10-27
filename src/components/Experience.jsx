@@ -9,7 +9,7 @@ export default function Experience() {
         <SectionHead
           num="03"
           title="Experience"
-          desc="Contract client engagements and product work, building from internship to full-stack ownership."
+          desc="Product and client work across public transport, government platforms and business systems."
         />
         <div className="timeline">
           {EXPERIENCE.map((e) => (

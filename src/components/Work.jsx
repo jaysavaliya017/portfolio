@@ -50,7 +50,7 @@ export default function Work() {
         <SectionHead
           num="01"
           title="Selected work"
-          desc="A few systems I've designed, built and kept running — from AI integration down to invoicing and frontend performance."
+          desc="Selected product and client work across public transport, government platforms, AI integration and business systems."
         />
         <div className="work-grid">
           {PROJECTS.map((p) => (

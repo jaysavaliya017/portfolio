@@ -16,7 +16,7 @@ export const SCHEMATIC = {
 }
 
 export const STATS = [
-  { n: '2', suffix: '+', l: 'years shipping production apps' },
+  { n: '2y 10m', suffix: '+', l: 'professional software experience' },
   { n: '~40', suffix: '%', l: 'frontend performance gain, Tyler Technologies app' },
   { n: '10k', suffix: '+', l: 'end users on a U.S. gov application' },
   { n: '3', suffix: '×', l: 'LLM stacks in production: OpenAI · Claude · MCP' },
@@ -34,6 +34,14 @@ export const PROJECTS = [
       ' to connect those models directly to internal systems, so the AI works against real company data instead of a sandbox. Built with the practical stuff that makes LLM features survive contact with production: structured prompts, fallbacks, and clean boundaries between the deterministic app and the model.',
     ],
     stack: ['OpenAI API', 'Claude API', 'MCP Server', 'C# / .NET Core', 'RAG patterns', 'JWT auth'],
+  },
+  {
+    tag: 'In progress · Public transport · NMMT / ASTC',
+    title: 'Planning & Scheduling for public transport',
+    body: [
+      'Contributing to the NMMT Planning & Scheduling platform for schedules, trips, duties, vehicle assignment and dispatch. Developing Turn-In / Turn-Out reports by mapping database tables, functions and relationships, while also supporting Angular and .NET Core changes across the NMMT and ASTC transport projects.',
+    ],
+    stack: ['Angular', '.NET Core', 'SQL Server', 'Transport operations', 'Reporting'],
   },
   {
     tag: 'U.S. government · client: Tyler Technologies',
