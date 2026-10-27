@@ -123,11 +123,11 @@ export const EXPERIENCE = [
     role: 'Software Developer · .NET + Angular',
     company: 'Amnex Infotechnologies Pvt. Ltd. — Ahmedabad, Gujarat',
     date: 'Sep 2026 — Present',
-    intro: 'Product company building smart city, mobility and intelligent transport systems (ITS). Working across the NMMT and ASTC government transport projects, contributing to Angular frontends and Node.js APIs in a large, in-production codebase.',
+    intro: 'Product company building smart city, mobility and intelligent transport systems (ITS). Working across the NMMT and ASTC government transport projects, contributing to Angular frontends and .NET Core APIs in a large, in-production codebase.',
     bullets: [
       'Build features for the Planning & Scheduling (PNS) platform used by New Mumbai Municipal Transport (NMMT), covering schedules, trips, duties, vehicle assignment and dispatch.',
       'Develop the Turn-In / Turn-Out Report module by mapping database tables, functions and data relationships to keep daily transport scheduling reports accurate.',
-      'Handle Angular frontend and Node.js API changes across the NMMT and ASTC government transport projects.',
+      'Handle Angular frontend and .NET Core API changes across the NMMT and ASTC government transport projects.',
     ],
   },
   {
